@@ -5,8 +5,6 @@ import (
 	"strconv"
 )
 
-
-
 // Client is a main struct of the client
 type Client struct {
 	host string
