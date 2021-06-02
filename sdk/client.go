@@ -9,13 +9,19 @@ import (
 type Client struct {
 	host string
 	port int
+
+	log *logger.CustomLogger
+}
+
+func (c *Client) PrintInfo() {
+	c.log.Log("HOST: " + c.host + ", PORT: " + strconv.Itoa(c.port))
 }
 
 // NewClient is a factory of clients
 func NewClient(host string, port int) *Client {
-	logger.GetLogger("client").Log("HOST: " + host + ", PORT: " + strconv.Itoa(port))
 	return &Client{
 		host: host,
 		port: port,
+		log:  logger.GetLogger("client"),
 	}
 }
