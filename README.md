@@ -1,6 +1,7 @@
 # go-mylibrary
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/ifreespam/go-mylibrary.svg)](https://pkg.go.dev/github.com/ifreespam/go-mylibrary/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/namecheap/go-namecheap-sdk)](https://goreportcard.com/report/github.com/ifreespam/go-mylibrary/v2)
 
 We're trying to do something useful here :)
 
