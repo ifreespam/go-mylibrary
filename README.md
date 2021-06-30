@@ -7,3 +7,7 @@ We're trying to do something useful here :)
 Let's see what we can do with it...
 
 Minor add
+
+## V2 is coming
+
+Here is the new coming release
