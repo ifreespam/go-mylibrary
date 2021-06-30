@@ -1,7 +1,7 @@
 package sdk
 
 import (
-	"github.com/ifreespam/go-mylibrary/internal/logger"
+	"github.com/ifreespam/go-mylibrary/v2/internal/logger"
 	"strconv"
 )
 
@@ -13,6 +13,7 @@ type Client struct {
 	log *logger.CustomLogger
 }
 
+// PrintInfo should have a comment
 func (c *Client) PrintInfo() {
 	c.log.Log("HOST: " + c.host + ", PORT: " + strconv.Itoa(c.port))
 }
