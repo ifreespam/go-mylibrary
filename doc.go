@@ -21,4 +21,4 @@ Usage:
 
 You're welcome to post issues and send your pull requests.
 */
-package sdk
+package main
